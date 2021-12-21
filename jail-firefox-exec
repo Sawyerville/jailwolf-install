@@ -1,4 +1,4 @@
 #!/bin/sh
 
-bastille start TARGET 2>1 > /dev/null
+bastille start TARGET 
 bastille cmd TARGET su firefox -c "export DISPLAY=$DISPLAY; /usr/local/bin/firefox $1"

@@ -8,7 +8,7 @@ fi
 xhost +local:
 
 if [ -x /usr/local/bin/sudo ]; then
-        sudo /usr/local/libexec/jail-firefox-exec $1 2>1 > /dev/null
+        sudo /usr/local/libexec/jail-firefox-exec $1
 else
     echo "Need either security/doas or security/sudo to proceed."
 fi

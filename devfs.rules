@@ -1,7 +1,0 @@
-[bastille_jailfox=99]
-add include $devfsrules_hide_all
-add include $devfsrules_unhide_basic
-add include $devfsrules_unhide_login
-add path 'mixer*' unhide
-add path 'dsp*' unhide
-
