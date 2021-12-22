@@ -24,5 +24,5 @@ jailfox
 In sudoers (visudo) for example:
 
 ```
-%wheel ALL=(ALL) NOPASSWD: /home/user/bin/jail-firefox-exec
+%wheel ALL=(ALL) NOPASSWD: /usr/local/libexec/jail-firefox-exec
 ```
