@@ -15,5 +15,5 @@ sed "s/TARGET/$TARGET/g" jail-firefox-exec > jail-firefox-exec.$TARGET
 install -m 755 jail-firefox-exec.$TARGET /usr/local/libexec/jail-firefox-exec
 install -m 755 jailfox /usr/local/bin/
 install -m 644 jailfox.desktop /usr/local/share/applications
-
+update-desktop-database
 
