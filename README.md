@@ -1,20 +1,20 @@
-# jailfox-install
+# jailwolf-install
 
-Providing simple shell scripts to accompany [jailfox](https://github.com/ddowse/jailfox)
+Providing simple shell scripts to accompany [jailwolf](https://github.com/sawyerville/jailwolf)
 
 ## Install
 ```shell
-git clone https://github.com/ddowse/jailfox-install
-cd jailfox-instal
+git clone https://github.com/sawyerville/jailwolf-install
+cd jailwolf-install
 su 
 ./install.sh TARGET [ PATH ]
 ```
 `PATH` is the path on your host e.g `/usr/home/foobar/Downloads` that should be
-mounted as the download directory for Firefox inside the jail.
+mounted as the download directory for Librewolf inside the jail.
 
 ## Run
 ```shell
-jailfox
+jailwolf
 ```
 
 ## Dependencies
@@ -24,5 +24,5 @@ jailfox
 In sudoers (visudo) for example:
 
 ```
-%wheel ALL=(ALL) NOPASSWD: /usr/local/libexec/jail-firefox-exec
+%wheel ALL=(ALL) NOPASSWD: /usr/local/libexec/jail-librewolf-exec
 ```
