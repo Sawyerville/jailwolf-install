@@ -1,0 +1,4 @@
+#!/bin/sh
+
+bastille start TARGET 
+bastille cmd TARGET su librewolf -c "export DISPLAY=$DISPLAY; /usr/local/bin/librewolf $1"
