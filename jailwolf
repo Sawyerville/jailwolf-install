@@ -7,8 +7,10 @@ fi
 
 xhost +local:
 
-if [ -x /usr/local/bin/sudo ]; then
-        sudo /usr/local/libexec/jail-firefox-exec $1
+if [ -x /usr/local/bin/doas ]; then
+        doas /usr/local/libexec/jail-librewolf-exec $1
+elif [ -x /usr/local/bin/sudo ]; then
+        doas /usr/local/libexec/jail-librewolf-exec $1
 else
     echo "Need either security/doas or security/sudo to proceed."
 fi
