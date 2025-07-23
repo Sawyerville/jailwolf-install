@@ -18,7 +18,7 @@ jailwolf
 ```
 
 ## Dependencies
-[doas](https://www.sudo.ws/) or [sudo](https://www.sudo.ws/) 
+[doas](https://man.freebsd.org/cgi/man.cgi?doas) or [sudo](https://www.sudo.ws/) 
 
 ## Optional
 In sudoers (visudo) for example:
